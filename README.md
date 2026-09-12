@@ -28,3 +28,10 @@ proyecto de residensias para el monitoreo, analisis y visualiacion de datos de c
 * 'datos_energia.csv': datos de entrada.
 * datos_energia_procesados.csv': datos calculados.
 * 'grafica_perfil_energetico.png': grafica del perfil de consumo.
+
+## resumen de matematicas clave 
+| matematica energetica | valor obtenido |
+| :--- | :--- |
+| **lecturas procesadas** | registros de voltaje y corriente |
+| **energia total consumida** | calculada en kwh |
+| **fractor de promedio** | evaluando en el script |
