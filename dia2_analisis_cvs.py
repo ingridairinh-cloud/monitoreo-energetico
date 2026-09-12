@@ -95,9 +95,9 @@ plt.xlabel('lectura')
 plt.ylabel('potencia (W)')
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 
-#mostrar la grafica
-plt.show()
 #guardar la grafica como imagen PNG
 plt.savefig("grafica_perfil_energito.png")
+#mostrar la grafica
+plt.show()
 #guardar el CSV con las nuevas columnas calculadas
 df.to_csv("datos_energia_procesados.csv", index=False)
