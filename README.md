@@ -35,3 +35,16 @@ proyecto de residensias para el monitoreo, analisis y visualiacion de datos de c
 | **lecturas procesadas** | registros de voltaje y corriente |
 | **energia total consumida** | calculada en kwh |
 | **fractor de promedio** | evaluando en el script |
+
+## Dia 9: analisis y monitoreo energetico
+
+en esta sesion se procesaron los datos del perfil de consumo y calidad de energia, calculando los siguientes indicadores clave:
+
+- **Consumo total acumulado:** 0.1264 kwh
+- **Demanda maxima:** 2.6640 kw
+- **Potencia promedio:** 0.6744 kw
+- **Factor de carga (FC):** 25.31%
+
+### Graficas generales: 
+1. **Curva de carga y demanda maxima ('grafico1_curva_carga.png'):** Muestra el pefil de potencia activa con la linea limites de demanda maxima.
+2. **Voltaje vs Corriente ('grafico2_voltaje_vs_corriente.png'):** Comparativa del comportamiento electrico donde sse aprecia el incremento de corriente asociado al pico de potencia.
