@@ -55,3 +55,11 @@ En esta sesion se completo la integracion total del sistema, la autorizacion del
 * **Lanzamiento automatizado ('lanzar_todo.py'):** Ejecucion simultanea del servidor local streamlit y el tunel en un solo comando.
 * **Alertas visuales:**Indicaor dinamico en pantalla en caso de sobrepasar el umbral critico de demanda maxima.
 * **Filtros e interaccio:** seleccion de rangos de fecha/hora en la barra lateral de reportes en formato CSV.
+
+## Diagrama de arquitectura del sistema 
+'''mermaid
+graph TD
+    A[datos_energia.csv] --> B[procesamiento en Pandas]
+    B --> C[Dashboard en Streamlit]
+    C --> D[Tunel en Ngrok]
+'''
