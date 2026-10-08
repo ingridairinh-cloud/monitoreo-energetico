@@ -47,4 +47,11 @@ en esta sesion se procesaron los datos del perfil de consumo y calidad de energi
 
 ### Graficas generales: 
 1. **Curva de carga y demanda maxima ('grafico1_curva_carga.png'):** Muestra el pefil de potencia activa con la linea limites de demanda maxima.
-2. **Voltaje vs Corriente ('grafico2_voltaje_vs_corriente.png'):** Comparativa del comportamiento electrico donde sse aprecia el incremento de corriente asociado al pico de potencia.
+2. **Voltaje vs Corriente ('grafico2_voltaje_vs_corriente.png'):** Comparativa del comportamiento electrico donde se aprecia el incremento de corriente asociado al pico de potencia.
+
+## ## Dia 10: Integracion Final y Dashboard Interactivo 
+En esta sesion se completo la integracion total del sistema, la autorizacion del arranque y la publicacion remota del dashboard.
+### Arquitectura e Integracion 
+* **Lanzamiento automatizado ('lanzar_todo.py'):** Ejecucion simultanea del servidor local streamlit y el tunel en un solo comando.
+* **Alertas visuales:**Indicaor dinamico en pantalla en caso de sobrepasar el umbral critico de demanda maxima.
+* **Filtros e interaccio:** seleccion de rangos de fecha/hora en la barra lateral de reportes en formato CSV.
