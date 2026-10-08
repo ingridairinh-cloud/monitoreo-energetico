@@ -57,9 +57,9 @@ En esta sesion se completo la integracion total del sistema, la autorizacion del
 * **Filtros e interaccio:** seleccion de rangos de fecha/hora en la barra lateral de reportes en formato CSV.
 
 ## Diagrama de arquitectura del sistema 
-'''mermaid
+```mermaid
 graph TD
     A[datos_energia.csv] --> B[procesamiento en Pandas]
     B --> C[Dashboard en Streamlit]
     C --> D[Tunel en Ngrok]
-'''
+```
