@@ -54,3 +54,8 @@ st.download_button(
     file_name="reporte_monitoreo_energetico.csv",
     mime="text/csv"
 )
+
+#tabla de datos crudos
+st.subheader("Datos crudos de Monitoreo")
+with st.expander("Ver tabla de datos completa"):
+    st.dataframe(df_filtrado)

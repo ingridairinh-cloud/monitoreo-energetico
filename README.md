@@ -49,7 +49,7 @@ en esta sesion se procesaron los datos del perfil de consumo y calidad de energi
 1. **Curva de carga y demanda maxima ('grafico1_curva_carga.png'):** Muestra el pefil de potencia activa con la linea limites de demanda maxima.
 2. **Voltaje vs Corriente ('grafico2_voltaje_vs_corriente.png'):** Comparativa del comportamiento electrico donde se aprecia el incremento de corriente asociado al pico de potencia.
 
-## ## Dia 10: Integracion Final y Dashboard Interactivo 
+## Dia 10: Integracion Final y Dashboard Interactivo 
 En esta sesion se completo la integracion total del sistema, la autorizacion del arranque y la publicacion remota del dashboard.
 ### Arquitectura e Integracion 
 * **Lanzamiento automatizado ('lanzar_todo.py'):** Ejecucion simultanea del servidor local streamlit y el tunel en un solo comando.
